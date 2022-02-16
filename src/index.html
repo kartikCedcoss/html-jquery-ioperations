@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+		<div id="add_product_form">
+			<label for="product_sku">
+				<span>Id</span>
+				<input type="text" name="product_sku" id="product_id"> 
+			</label>
+			<label for="product_name">
+				<span> Name</span>
+				<input type="text" name="name" id="product_name">
+			</label>
+			<label for="product_price">
+				<span> Price</span>
+				<input type="text" name="price" id="product_price"> 
+			</label>
+			<label for="product_quantity">
+				<span> Quantity</span>
+				<input type="text" name="quantity" id="product_quantity">                        
+            			</label>
+			<p class="submit">
+				<input type="button"  id="btnAdd" value="Add">
+                <input type="button"  id="btnDelete" value="Delete">
+                <input type="button"  id="btnAddnew" value="Addnew">
+                <input type="button"  id="btnUpdate" value="Update">
+                <input type="button"  id="btnDisplay" value="Display">
+							</p></div>
+    </div>
+    <div id="product_list"> </div>
+    </div>
+    <script src="myscript.js"></script>
+</body>
+</html>

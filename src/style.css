@@ -1,0 +1,28 @@
+body{
+	font-family: Arial;
+	font-size: 80%;
+}
+
+#wrapper{
+	width: 80%;
+	margin: 20px auto 0;
+}
+#add_product_form label{
+	display: block;
+	margin-top: 10px;
+}
+
+#add_product_form label span{
+	width: 150px;
+	display: inline-block;
+}
+
+#add_product_form .submit{
+	margin-top: 40px;
+}
+
+#add_product_form .submit input[type="button"]{
+	border-radius: 5px;
+	border: 1px solid #d6d3d3;
+	padding: 10px;
+}
